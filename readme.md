@@ -1,5 +1,7 @@
 # koishi-plugin-vox
 
+[![npm](https://img.shields.io/npm/v/koishi-plugin-vox?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-vox)
+
 Vox 合成器，依赖 FFmpeg 进行音频处理。
 
 ## 简介
