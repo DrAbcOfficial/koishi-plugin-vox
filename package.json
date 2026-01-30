@@ -1,7 +1,15 @@
 {
   "name": "koishi-plugin-vox",
-  "description": "Vox合成器",
+  "description": "Vox合成器，依赖FFmpeg进行音频处理。",
+  "contributors": [
+    "Dr.Abc <me@drabc.net>"
+  ],
   "version": "0.0.1",
+  "homepage": "https://github.com/DrAbcOfficial/koishi-plugin-vox",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrAbcOfficial/koishi-plugin-vox.git"
+  },
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -18,5 +26,15 @@
   "devDependencies": {},
   "peerDependencies": {
     "koishi": "^4.18.7"
+  },
+  "koishi": {
+    "description": {
+      "en": "A Vox synthesizer relies on FFmpeg for audio processing.",
+      "zh": "Vox合成器，依赖FFmpeg进行音频处理。"
+    },
+    "service":{
+      "optional": ["silk"]
+    },
+    "preview": false
   }
 }
